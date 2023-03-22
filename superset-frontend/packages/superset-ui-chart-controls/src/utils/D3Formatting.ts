@@ -48,6 +48,7 @@ export const D3_FORMAT_OPTIONS: [string, string][] = [
   ['$,.2f', '$,.2f (12345.432 => $12,345.43)'],
   ['DURATION', t('Duration in ms (66000 => 1m 6s)')],
   ['DURATION_SUB', t('Duration in ms (1.40008 => 1ms 400µs 80ns)')],
+  ['DURATION_SIMPLIFIED', t('Simplified Duration in ms (1337.40008 => 1s )')],
 ];
 
 export const D3_TIME_FORMAT_DOCS = t(

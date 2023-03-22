@@ -66,6 +66,10 @@ export default function setupFormatters() {
     .registerValue(
       'DURATION_SUB',
       createDurationFormatter({ formatSubMilliseconds: true }),
+    )
+    .registerValue(
+      'DURATION_SIMPLIFIED',
+      createDurationFormatter({ formatSubMilliseconds: true, compact: true }),
     );
 
   getTimeFormatterRegistry()
